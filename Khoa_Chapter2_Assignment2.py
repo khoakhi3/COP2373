@@ -36,7 +36,7 @@ def main():
 
     #determine the spam likelyhood
     print('^_^ Analysis Report ^_^')
-    print(f'pam score is: {spam_score}')
+    print(f'spam score is: {spam_score}')
     if spam_score == 0:
         print('Not spam (0% likelyhood)')
     elif spam_score <= 3:
